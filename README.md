@@ -1,12 +1,12 @@
-# AI Project Template
+# MetaTemplate
 
-A lightweight, file-based system for managing projects with an AI assistant — Claude, GitHub Copilot, or any AI with file access.
+A lightweight, file-based framework for working with AI on anything — projects, daily tracking, coding efforts, specific tasks, or long-horizon goals. Works with Claude, GitHub Copilot, or any AI with file access.
 
 ## What This Is
 
-A small set of markdown files that give your AI assistant persistent context across sessions. Instead of re-explaining your project every time you open a chat, the AI reads a few files and picks up where you left off.
+A small set of markdown files that give your AI assistant persistent context across sessions. Instead of re-explaining your work every time you open a chat, the AI reads a few files and picks up where you left off.
 
-Works for any kind of project: home improvement, software development, research, business planning, or anything else you want to manage with AI assistance.
+Works for any kind of effort: home improvement, software development, health tracking, daily task management, research, business planning — anything you want to work on consistently with AI assistance.
 
 ## How It Works
 
