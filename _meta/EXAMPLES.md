@@ -123,4 +123,29 @@ Without this section, sessions lose mid-task context and require re-explanation.
 
 ---
 
+## 6. Custom Slash Command Skills
+
+Repetitive session actions (like a welcome greeting) can be turned into a `/skill-name` command so they fire reliably with one word instead of relying on first-message behavior.
+
+Skills are markdown files stored in `.claude/commands/` — the filename becomes the command name.
+
+```
+.claude/
+└── commands/
+    └── kai.md      ← invoked with /kai
+```
+
+Example skill file (`kai.md`):
+```markdown
+Read SESSION.md and the relevant status files, then greet the user with:
+
+"Welcome back, [name]. Here is a summary of the last X decisions:
+1. ...
+Suggested starting point: ..."
+```
+
+**When to use:** Any repeated action that needs consistent output — session greetings, status reports, project summaries, health check-ins. Store in `.claude/commands/` (gitignored — stays private).
+
+---
+
 *Add new examples here as new patterns are established in practice.*
