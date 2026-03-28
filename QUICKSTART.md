@@ -111,15 +111,22 @@ Claude Code is a command-line AI tool with full file access and persistent memor
 **Setup:**
 1. Install Claude Code: `npm install -g @anthropic-ai/claude-code`
 2. Duplicate `AGENT.md` and name the copy `CLAUDE.md` at your workspace root — Claude Code loads this automatically on startup
-3. Copy `_template/commands/open.md` and `_template/commands/close.md` into `.claude/commands/` in your workspace:
+3. Copy the starter commands into `.claude/commands/`:
    ```
    mkdir -p .claude/commands
    cp _template/commands/open.md .claude/commands/open.md
    cp _template/commands/close.md .claude/commands/close.md
+   cp _template/commands/setup.md .claude/commands/setup.md
    ```
-4. Open `_template/commands/open.md` and replace `[Your Name]` with your name
 
-**Starting a session:**
+**Starting setup (first time only):**
+```
+cd my-workspace
+claude
+```
+Then type `/setup` — the AI will ask you a few questions and build your workspace files automatically.
+
+**Starting a session (after setup):**
 ```
 cd my-workspace
 claude
