@@ -1,6 +1,6 @@
 ---
 type: agent-instructions
-last_updated: 2026-03-27
+last_updated: 2026-03-28
 ---
 
 # Agent Session Instructions

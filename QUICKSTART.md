@@ -1,6 +1,6 @@
 ---
 type: quickstart
-last_updated: 2026-03-27
+last_updated: 2026-03-28
 ---
 
 # QuickStart Guide
@@ -43,7 +43,7 @@ git clone https://github.com/[your-username]/[your-repo-name]
 **Option B — Download:**
 Download the repo as a ZIP, extract it, and rename the folder to something short (`kAI/`, `my-workspace/`, etc.).
 
-### 2. Your root files are ready — just fill them in
+### 2. Fill in your root files
 
 The repo root already contains everything you need:
 
@@ -111,7 +111,13 @@ Claude Code is a command-line AI tool with full file access and persistent memor
 **Setup:**
 1. Install Claude Code: `npm install -g @anthropic-ai/claude-code`
 2. Duplicate `AGENT.md` and name the copy `CLAUDE.md` at your workspace root — Claude Code loads this automatically on startup
-3. The `/open` and `/close` session commands are included in `.claude/commands/` — no setup needed
+3. Copy `_template/commands/open.md` and `_template/commands/close.md` into `.claude/commands/` in your workspace:
+   ```
+   mkdir -p .claude/commands
+   cp _template/commands/open.md .claude/commands/open.md
+   cp _template/commands/close.md .claude/commands/close.md
+   ```
+4. Open `_template/commands/open.md` and replace `[Your Name]` with your name
 
 **Starting a session:**
 ```
@@ -193,6 +199,14 @@ Copy each block and paste it back into the corresponding file on your computer.
 2. Copy `_template/project_plan.md` and `_template/status.md` into it
 3. Fill in the files
 4. Add the effort to the Active Projects table in `SESSION.md`
+
+### Adding workstream personas and triggers (optional)
+
+For more advanced setups — multiple efforts with different AI response styles and keyword-based lazy loading:
+
+1. Copy `_template/TRIGGERS.md` to `_meta/TRIGGERS.md` and fill in your keywords
+2. Copy `_template/PERSONAS.md` to `_meta/PERSONAS.md` and define your personas
+3. Reference both files in `AGENT.md` or `CLAUDE.md`
 
 ### Adjusting AI behavior
 
