@@ -1,0 +1,23 @@
+# Private project data — never publish
+home/
+health/
+template/
+
+# Personal session and context files — machine/user specific
+/SESSION.md
+/CLAUDE.md
+/CONTEXT.md
+
+# Memory — private, backed up via OneDrive
+_memory/
+
+# Claude Code internals
+.claude/
+
+# Personal runtime files — generic template versions live in _template/
+_meta/TRIGGERS.md
+_meta/PERSONAS.md
+
+# Personal workstreams
+kpro/
+ops/
