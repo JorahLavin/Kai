@@ -3,7 +3,7 @@ type: examples
 last_updated: 2026-03-28
 ---
 
-# MetaTemplate — Personalization Examples
+# Kai — Personalization Examples
 
 Short, generic examples of real patterns used in practice. Adapt these to your own context.
 

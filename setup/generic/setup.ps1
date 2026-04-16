@@ -1,7 +1,7 @@
 #Requires -Version 5.1
 <#
 .SYNOPSIS
-    Sets up a MetaTemplate workspace for use with any AI tool.
+    Sets up a Kai workspace for use with any AI tool.
 .DESCRIPTION
     Run this script as Administrator for best results.
     Sets execution policy and creates your workspace folder with all template files.

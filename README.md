@@ -1,4 +1,4 @@
-# MetaTemplate
+# Kai
 
 A lightweight, file-based framework for working with AI on anything — projects, daily tracking, goals, or long-horizon work. Works with Claude Code, GitHub Copilot, M365 Copilot, or any AI with file access.
 

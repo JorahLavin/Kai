@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# MetaTemplate workspace setup — GitHub Copilot in VS Code
+# Kai workspace setup — GitHub Copilot in VS Code
 # After setup, open your workspace in VS Code.
 # In Copilot Chat, attach AGENT.md and SESSION.md, then say "let's start".
 

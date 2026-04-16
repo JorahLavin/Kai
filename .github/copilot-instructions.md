@@ -1,6 +1,6 @@
-## MetaTemplate Session System
+## Kai Session System
 
-This workspace uses the MetaTemplate session system. The full instructions are in `AGENT.md` at the root of this workspace — read it at the start of every session.
+This workspace uses the Kai session system. The full instructions are in `AGENT.md` at the root of this workspace — read it at the start of every session.
 
 ### Session Open
 Trigger phrases: "open", "/open", "let's start", "pick up where we left off"

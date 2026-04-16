@@ -9,13 +9,13 @@ Why the system is structured the way it is. Read this before changing the struct
 
 ---
 
-## MetaTemplate Copyright is Intentional
+## Kai Copyright is Intentional
 
-Kerry retains explicit copyright on MetaTemplate and all published materials. The copyright line in presentations and shared files must never be removed.
+Kerry retains explicit copyright on Kai and all published materials. The copyright line in presentations and shared files must never be removed.
 
-**Why:** Establishes clear separation between work developed on personal time (MetaTemplate, kAI) and any employment context — even if the same method is later applied at work. The copyright is evidence that this was developed independently, outside of employment, and is Kerry's personal intellectual property.
+**Why:** Establishes clear separation between work developed on personal time (Kai, kAI) and any employment context — even if the same method is later applied at work. The copyright is evidence that this was developed independently, outside of employment, and is Kerry's personal intellectual property.
 
-**Rule:** Always include `© [year] Kerry Thompson` in any published presentation or shareable document. Do not add employer references or work-context language to MetaTemplate files.
+**Rule:** Always include `© [year] Kerry Thompson` in any published presentation or shareable document. Do not add employer references or work-context language to Kai files.
 
 ---
 

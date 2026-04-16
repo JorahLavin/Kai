@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# MetaTemplate workspace setup — generic (any AI tool)
+# Kai workspace setup — generic (any AI tool)
 # After setup, open AGENT.md in your AI tool and say "let's start".
 
 set -e

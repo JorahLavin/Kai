@@ -38,9 +38,9 @@ Add an entry whenever something works better than expected, fails, or could be d
 **Recommendation:** Mirror all memory files into the kAI workspace itself — e.g., a `_memory/` folder at the kAI root. This makes memory visible, editable, version-controlled, and portable. Claude's internal memory can remain as a fast-load cache, but the kAI file structure is the source of truth.
 **Status:** Done — `_memory/` created at kAI root; gitignored (private); backed up via OneDrive; CLAUDE.md updated with sync instructions
 
-### 2026-03-27 — Rebranded to MetaTemplate
+### 2026-03-27 — Rebranded to Kai
 **Observation:** "AI-Assisted Project Management" was too narrow — implied only project tracking, excluded coding, daily tasks, health tracking, and other effort types.
-**Recommendation:** Use "MetaTemplate" as the name going forward. It connects to the existing `_meta/` structure, signals "a template for how to work" rather than a specific work type, and avoids scope-limiting language. Update all references: presentation, README, GitHub description, and any future marketing materials.
+**Recommendation:** Use "Kai" as the name going forward. It connects to the existing `_meta/` structure, signals "a template for how to work" rather than a specific work type, and avoids scope-limiting language. Update all references: presentation, README, GitHub description, and any future marketing materials.
 **Status:** Done
 
 ### 2026-03-27 — SESSION.md split into SESSION.md + CONTEXT.md
